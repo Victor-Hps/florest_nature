@@ -20,10 +20,67 @@
 /* Configurações de caracter gerais
 */
 
+
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+    background-color: var(--cor-body);
+    height: 900px;
+}
+main{
+    background-color: var(--cor-body);
+    margin:auto;
+    max-width: 1200px;
+    
+}
+
+header{
+    background-color: var(--cor-body);
+    height: 180px;
+    box-shadow: 1px 1px 6px rgba(78, 78, 78, 0.274);
+    margin-bottom: 20px;
+}
+
+
+.titulo-main{
+    color: var(--cor-nav);
+    font-family: var(--fonte-1);
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 48px;
+
+}
+
+.nav-header{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 50px;
+    gap: 20px;
+   
+}
+
+.listas-menu{
+    text-decoration: none;
+    list-style: none;
+    color: var(--cor-01);
+    font-size: 19px;
+    font-weight: bold;
+    padding-right: 16px;
+
+}
+
+.listas-menu:hover{
+    text-decoration: underline;
+    transition: 0.4s;
+    color: var(--cor-nav);
+    transform:translateX(4px);
+}
+
+.listas{
+    list-style: none;
+}
